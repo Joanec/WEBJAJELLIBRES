@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Dancing+Script|Indie+Flower|Lacquer|Permanent+Marker|Shadows+Into+Light&display=swap');
+
+/*TIPOS DE LETRASS*/
+/*
+font-family: 'Lacquer', ;
+font-family: 'Indie Flower', ;
+font-family: 'Dancing Script', ;
+font-family: 'Shadows Into Light', ;
+font-family: 'Permanent Marker', ;
+font-family: 'Courgette', ;
+*/
+
+/*********************************************************
+                        CONTENIDO (GENERAL)
+*********************************************************/
+.container {
+  width: 940px;
+  background: white;
+  margin: auto;
+  border-radius: 25px;
+  font-family: sans-serif;
+}
+
+body{
+  font-family: arial;
+}
+
+/*********************************************************
+                        PAGINA PRINCIPAL
+*********************************************************/
+    
+    .col {
+      width: 310px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .col h2{
+      color: #B52025 
+    }
+
+    .row{
+      text-align: center;
+    }
+
+    .entrada{
+      width: 900px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: center;
+      padding: 15px;
+      margin-top: -30px;
+    }
+ 
+/*********************************************************
+                              IMÁGENES
+*********************************************************/
+    
+    #img {
+      opacity: 0.5;
+      filter: alpha(opacity=50);
+    }
+    #img:hover {
+      opacity: 1.0;
+      filter: alpha(opacity=100);
+    }
+
+    #img2:hover{
+    transform: scale(1.1)
+    }
+     #img3:hover{
+    transform: scale(1.2)
+    }
+   
+/*********************************************************
+                              MENÚ
+*********************************************************/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/*********************************************************
+                          REDES SOCIALES
+*********************************************************/
+
+.copyright {
+  text-align: center;
+  background-color: #717070;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  border-top-width: 2px;
+  font-family: "Source Sans Pro";
+}
+
+.thumbnail {
+  width: 100px;
+  border-radius: 200px;
+  height: 100px;
+  margin-left: auto;
+}
+.thumbnail_align {
+  text-align: center;
+}
+.social {
+  text-align: center;
+  margin: auto;
+  background-color: #414141;
+  overflow: auto;
+  padding: 10px;
+}
+.social_icon {
+  width: 25%;
+  text-align: center;
+  float: left;
+  line-height: 0px;
+  padding-top: 7px;
+}
+
+/*********************************************************
+                          PAGINA CONTACTOS
+*********************************************************/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contenedor::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+.contactos{
+  text-align: center;
+}
+
+.redondo {
+  width: 150px;
+  border-radius: 200px;
+  height: 150px;
+  margin-left: auto;
+}

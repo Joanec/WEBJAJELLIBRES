@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>    
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/logo1.jpg">
+  <title>WEB JAJE LLIBRES</title>
+</head>
+
+<body class="container">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Inici</a>
+    <a href="nosaltres.html">Sobre nosaltres</a>
+    <a href="contacte.html">Contacte</a>
+  </div>
+  <img src="img/logo1.jpg" width="940" height="360" alt="" id="baner">
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  </div>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  </script>
+   <div class="container">
+     <div>
+      <div class="entrada">
+        <h1 class="h1">GRUP JAJE LLIBRES</h1>
+              <img src="img/nosotros.jpg" alt="libros1" width="600" id="img">
+              <br><br>
+              <p>JAJE LLIBRES és una empresa fundada per un grup de tres joves estudiants de cicle superior de DAW de centre IES Abastos. El nostre objectiu és oferir una web en la qual es puguin buscar llibres interessants de qualsevol tema i el fomentar la lectura de la gent.</p>
+              
+      </div>
+         
+      <div class="row">
+        <h1 class="h1">Algunes de les coses que més destaquem al nostre web:</h1>
+          <div class="col">
+            <h2>Per què Llibres?</h2>
+            <img src="img/libros2.jpg" alt="libros2" width="270" id="img2">              
+            <p>Perquè considerem que els llibres no només t'ensenyen, sinó que també et fan gaudir.</p>
+          </div>
+          <div class="col">
+            <h2>Temàtiques de tot tipus</h2>
+            <img src="img/lirbos3.jpg" alt="lirbos3" width="270" id="img2">
+            <p>A la nostra web oferim a la gent alguns dels millors llibres en valencià.</p>
+          </div>
+          <div class="col">
+            <h2>Passió pels llibres</h2>
+            <img src="img/libros.jpg" alt="libros4" width="270" id="img2">
+            <p>Busquem que com a nosaltres, et apassionin els llibres.</p>
+          </div>
+
+          </div>
+            <div class="social">
+              <a href="https://es-es.facebook.com/" class="social_icon"><img src="img/facebook.png" width="150" alt="" class="thumbnail"></a>
+              <a href="https://twitter.com/" class="social_icon"><img src="img/Twiter.png" width="150" alt="" class="thumbnail"></a>
+              <a  href="https://www.instagram.com/" class="social_icon"><img src="img/Instagram.jpg" width="150" alt="" class="thumbnail"></a>
+              <a href="https://www.snapchat.com/l/es/" class="social_icon"><img src="img/snapchat.jpg" width="150" alt="" class="thumbnail"></a>
+            </div>
+      </div>
+</body>
+  <footer class="secondary_header·footer">
+    <div class="copyright">&copy;2020 - <strong>JAJE LLIBRES</strong>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a>.
+    </div>
+</html>
+
