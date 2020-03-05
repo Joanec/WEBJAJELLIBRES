@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>    
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="images/logo1.jpg">
+  <title>WEB JAJE LLIBRES</title>
+</head>
+<body class="container">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Inici</a>
+      <a href="llibres.html">Llibres</a>
+      <a href="nosaltres.html">Sobre nosaltres</a>
+      <a href="contacte.html">Contacte</a>
+    </div>
+    <img src="img/logo1.jpg" width="940" height="360" alt="" id="baner">
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+  
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+  
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+    <section id="nrom">
+        <h2 class="novrom">Novel·la romàntica</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td> Aquesta senzilla paraula </td>
+                    <td> Cath Crowley </td>
+                    <td> 15,95€</td>
+                    <td>Aquesta és la història de la llibreria Howling Books, on els lectors escriuen cartes a estranys, a amants, a poetes, i les amaguen entre les pàgines dels llibres.
+
+                        I és la història d’en Henry Jones i la Rachel Sweetie, que van ser bons amics fins que ella se’n va anar a viure a prop del mar. Ara la noia ha tornat, treballa a la llibreria, està de dol pel seu germà Cal i busca el futur en els llibres que la gent estima i en les paraules que deixen enrere.
+                        
+                        Semblaria una història corrent, si no fos per la carta que la Rachel va escriure abans de marxar, una carta d’amor que va amagar en un llibre perquè ell la trobés...</td>
+                </tr>
+                <tr>
+                    <td>Tres vegades tu</td>
+                    <td>Federico Moccia</td>
+                    <td>10,95€</td>
+                    <td>Sis anys després, les vides dels nostres protagonistes han canviat. Han aconseguit ser feliços,
+                        però quan menys s’ho esperen, els seus camins es tornen a trobar… Després de l’èxit d’A tres metres sobre el cel i Tinc ganes de tu, arriba l’esperat desenllaç de la història
+                        d’amor de l’Step, la Babi i la Gin.</td>
+                </tr>
+                <tr>
+                    <td>El sol també és una estrella</td>
+                    <td>Nicola Yoon</td>
+                    <td>14,50€</td>
+                    <td>Natasha: Soc una noia que creu en la ciència i en els fets demostrables. No en el destí. De fet, no soc la mena de noia que coneix un noi al carrer i se n’enamora perdudament. I encara menys quan la meva família serà deportada a Jamaica d’aquí a dotze hores...
+
+                        Daniel: Sempre he sigut el bon fill, un bon estudiant, a l’altura de les expectatives dels meus pares. Mai el poeta. Ni el somiador. Però quan la veig, m’oblido de tot. La Natasha em fa pensar que el destí ens reserva coses extraordinàries...</td>
+                </tr>
+                <tr>
+                    <td>Forever you</td>
+                    <td>Estelle Maskame</td>
+                    <td>16,95€</td>
+                    <td>La gent creu que en Tyler ho té tot..., però ell sap que no té res.
+                        Una nòvia al·lucinant, un cotxe imponent, moltes festes i admiració: una vida aparentment enlluernadora. Però en Tyler se sent trencat, i només ell en sap el motiu. Una realitat dramàtica que amaga a tothom i que l’està destrossant per dins.</td>
+                </tr>
+                <tr>
+                    <td>Com a foc en el gel</td>
+                    <td>Luz Gabás</td>
+                    <td>9,45€</td>
+                    <td>El fatídic dia en què Attua va haver d'ocupar el lloc del seu pare va saber que el seu prometedor futur s'havia truncat. Ara havia de regentar les termes que havien estat el suport de la seva família, en una terra fronterera a la qual ell mai hagués triat tornar. Al costat de el seu, també es va frustrar el desig de Cristela, qui anhelava una vida al seu costat i, a més, allunyar-se de la seva insuportable rutina en un entorn hostil. Un nou revés de la destinació posarà a prova l'irrefrenable amor entre ells; i així, entre malentesos i obligacions, decisions i obsessions, traïcions i lleialtats, Luz Gabás teixeix una bella història d'amor, honor i superació.
+                        Els convulsos anys de mitjan el segle XIX, entre guerres carlines i revolucions; la construcció d'un somni en les indomables muntanyes que separen França i Espanya; i una història d'amor que traspassa totes les barreres. Una novel·la escrita amb l'apassionant pols narratiu de l'autora de Palmeres a la neu.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id="nfan">Novel·la fastástica</h2>
+        <table class="novfan">
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td>Lleopard negre, llop vermell</td>
+                    <td>Marlon James</td>
+                    <td>22,90€</td>
+                    <td>El Rastrejador és un caçador, conegut arreu dels tretze regnes com algú amb un olfacte prodigiós i que sempre treballa sol. Però trenca les seves pròpies normes quan es troba formant part d’un inusual grup de mercenaris a la recerca d’un nen desaparegut tres anys enrere. Tots ells estranys, cadascun més perillós que l’altre, i tots amb secrets per amagar. Qui és aquest nen misteriós? Per què hi ha tanta gent que no vol que el trobin? I, el més important, qui diu la veritat i qui menteix, en aquest joc on reis i comerciants d’esclaus, bruixes i bèsties fantàstiques tenen els seus propis interessos?</td>
+                </tr>
+                <tr>
+                    <td>Les històries naturals</td>
+                    <td>Joan Perucho</td>
+                    <td>19,90€</td>
+                    <td>Amb Les històries naturals (1960), la seva segona novel·la, Joan Perucho va recuperar l’esperit de les lectures juvenils —les novel·les d’aventures i les històries de vampirs— i al mateix temps hi va fer una reconstrucció irònica i erudita de la Catalunya del segle XIX: del desenvolupament de les ciències de la il·lustració i de les lluites polítiques que van desembocar en les guerres carlines.
+                        El resultat una novel·la culta escrita com si fos una novel·la popular sobre un naturalista escèptic, Antoni de Montpalau, que acaba iniciant-se en el misteri d’un cavaller de Jaume I convertit en vampir, Onofre de Dip, i que recorre el Maestrat i el Berguedà en busca de noves víctimes.</td>
+                </tr>
+                <tr>
+                    <td>Quatre</td>
+                    <td>Veronica Roth</td>
+                    <td>8.95 €</td>
+                    <td>S’inclouen quatre històries: El trasllat, La iniciació, El fill i El traïdor, i tres escenes exclusives addicionals, que deixaran entreveure als fans de Divergent què sent en Quatre.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Foc i Sang</td>
+                    <td>George RR Martin</td>
+                    <td>12,34€</td>
+                    <td>Segles abans que tinguessin lloc els esdeveniments que s'expliquen a «Cançó de gel i foc», la casa Targaryen, l'única dinastia de Senyors Drac que va sobreviure a la Maledicció de Valyria, es va assentar a l'illa de Rocadrac. Us presentem el primer volum d'un total de dos en què l'autor de Joc de trons explica amb gran detall la història d'aquesta família tan fascinant: començant per Aegon I Targaryen, creador de l'icònic Tron de Ferro, i seguint per la resta de les generacions de Targaryens que van lluitar ferotgement per conservar el poder, i el tron, fins a l'arribada de la guerra civil que gairebé els va fer desaparèixer. Què va passar realment durant la Dansa de dracs? Per què era tan perillós apropar-se a Valyria després de la Maledicció? Com era Ponent quan els dracs dominaven el cel? Aquestes i moltes altres són les preguntes a les quals respon aquesta monumental crònica, narrada per un culte mestre de la Ciutadella, que anticipa el conegut univers de George R.R. Martin. Foc i Sang és la gran oportunitat que tenen els lectors de conèixer una altra visió de la fascinant història de Ponent. Aquesta obra, magníficament il·lustrada amb 85 làmines inèdites de Doug Wheatley, esdevindrà, sens dubte, una lectura ineludible per a tots els fans de l'aclamada sèrie.</td>
+                </tr>
+                <tr>
+                    <td>Noah Barleywater fuig de casa</td>
+                    <td>John Boyne</td>
+                    <td>13,30€</td>
+                    <td>En Noah té vuit anys, i la millor manera que ha trobat de resoldre els seus problemes és fer veure que no existeixen. Però arriba un dia que l’única manera per no pensar-hi és fugir de casa. Espantat i confós, en Noah s’endinsa al bosc. Després de passar per un parell de pobles, on es troba personatges curiosos i situacions estranyes, arriba a una botiga molt original plena de joguines fantàstiques i coneix un joguinaire inusual, molt vell, que té una història per explicar: una història llarga, plena d’aventures i màgia, que li farà viure un viatge inoblidable que li canviarà la vida. I que podria canviar la teva, també.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id="npol">Novel·la policíaca</h2>
+        <table class="novpol">
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td>El crims dels carrers de la morgue</td>
+                    <td>Edgar Allan Poe</td>
+                    <td>9,95€</td>
+                    <td>Qui vol confondre en Montalbano? Per què li donen pistes falses i li engeguen un tret al cotxe?
+                        El joc dels miralls és un veritable laberint en què fi ns i tot el comissari es perd. Posen una bomba en un dipòsit abandonat, i el rastre porta cap als nous veïns d’en Montalbano, una colla d’okupes carregats d’antecedents penals. Però a la casa del costat també són nous: una simpàtica parella, els Lombardo. Ell viatja molt, i ella, ves per on, acabarà en braços d’en Montalbano. És casual que se li espatlli el cotxe just quan passa ell?</td>
+                </tr>
+                <tr>
+                    <td>El joc dels miralls</td>
+                    <td>Andrea Camilleri</td>
+                    <td>15,00€</td>
+                    <td>Amb Les històries naturals (1960), la seva segona novel·la, Joan Perucho va recuperar l’esperit de les lectures juvenils —les novel·les d’aventures i les històries de vampirs— i al mateix temps hi va fer una reconstrucció irònica i erudita de la Catalunya del segle XIX: del desenvolupament de les ciències de la il·lustració i de les lluites polítiques que van desembocar en les guerres carlines.
+                        El resultat una novel·la culta escrita com si fos una novel·la popular sobre un naturalista escèptic, Antoni de Montpalau, que acaba iniciant-se en el misteri d’un cavaller de Jaume I convertit en vampir, Onofre de Dip, i que recorre el Maestrat i el Berguedà en busca de noves víctimes.</td>
+                </tr>
+                <tr>
+                    <td>El son etern</td>
+                    <td>Raymond Chandler</td>
+                    <td>4,95 €</td>
+                    <td>Los Angeles és una ciutat de contrastos, amb luxoses mansions bastides per milionaris i sòrdids carrers plens de gàngsters i assassins, i l'investigador privat Philip Marlowe és un testimoni d'excepció de les llums i lesombres de l'assolellada Califòrnia. Quan el general retirat Sternwood el contracta per seguir la pista d'un xantatgista anomenat Geiger, els deutes de joc, el tràfic de drogues i la venjança personal marquen els temps d'una investigacióque per a Marlowe, cínic i materialista, aviat es converteix en un trencaclosques que s'ha de recomençar a cada peça resolta.
+                    </td>
+                </tr>
+                <tr>
+                    <td>La intermitència</td>
+                    <td>Andrea Camilleri</td>
+                    <td>15,50€</td>
+                    <td>Les aliances estratègiques han estat sempre les principals armes de Mauro De Blasi, el director
+                        general d’una important empresa italiana. D’un temps ençà, però, la seva claredat de pensament
+                        s’ha vist afectada per uns blancs sobtats, unes “intermitències” pertorbadores durant les
+                        quals per uns segons es desconnecta del món. Aquest és un problema greu per a l’empresa. La
+                        seva malaltia arriba en un moment de crisi econòmica, els treballadors han ocupat una fàbrica
+                        i la imatge pública de la marca se’n pot ressenti</td>
+                </tr>
+                <tr>
+                    <td>La cara nord del cor</td>
+                    <td>Dolores Redondo</td>
+                    <td>21,75€</td>
+                    <td>«Quan l’Amaia Salazar tenia dotze anys va estar perduda pel bosc durant setze hores. Era de matinada quan la van trobar, a trenta quilòmetres al nord del lloc del sender on s’havia despistat. Desmaiada sota la intensa pluja, amb la roba bruta i socarrimada com la d’una bruixa medieval rescatada d’una foguera, i en contrast, la pell blanca, neta i glaçada com si acabés de sortir del gel».
+
+                        L’agost del 2005, molt abans dels crims que van commocionar la vall de Baztan, una jove Amaia Salazar de vint-i-cinc anys, subinspectora de la Policia Foral, participa en un curs d’intercanvi per a policies de l’Europol a l’Acadèmia de l’FBI als Estats Units, que imparteix Aloisius Dupree, cap de la unitat d’investigació.
+                        
+                        Una de les proves consisteix a estudiar un cas real d’un assassí en sèrie, a qui anomenen «el Compositor», que sempre actua mentre es produeixen grans desastres naturals atacant famílies senceres i amb una posada en escena gairebé litúrgica. L’Amaia es convertirà inesperadament en part de l’equip d’investigació, que els durà fins a Nova Orleans just abans del pitjor huracà de la història d’aquesta ciutat, per mirar d’avançar-se a l’assassí...
+                        
+                        Però una trucada de la seva tia Engrasi des d’Elizondo despertarà en l’Amaia antics fantasmes de la infantesa que ho poden canviar tot, exposant-la novament a la cara nord del cor.</td>
+                </tr>
+            </tbody>
+        </table>        
+    </section>
+    <section>
+        <h2 id="nhis">Novel·la històrica</h2>
+        <table class="novhis">
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td>El cònsol de Barcelona</td>
+                    <td>Andreu Claret Serra</td>
+                    <td>20€</td>
+                    <td>Barcelona, 1936-37. La ciutat és un bullidor d’il·lusions, conspiracions i tragèdies. Vladimir Antónov-
+                        Ovséienko, el cònsol soviètic, té l’encàrrec d’ajudar la rereguarda republicana però també controlar la CNT
+                        i perseguir els trotskistes del POUM. El vell bolxevic s’enamora de Catalunya, s’interessa pels anarquistes i
+                        estableix grans complicitats amb Lluís Companys. És l’any dels processos de Moscou i la seva dona, Sòfia
+                        Levin, descobreix els horrors de l’estalinisme i els comparteix amb el seu marit, que viu escindit entre la
+                        lleialtat i la veritat. Stalin no se’n refiarà mai. Antónov- Ovséienko escriu un testament polític que deixa al seu
+                        fidel xofer, Josep Tarrida, un militant del PSUC, per donar-lo a conèixer quan Hitler hagi estat derrotat.
+                        Vuitanta anys més tard, una jove historiadora russa el descobrirà a casa d’una dona misteriosa de noranta
+                        anys que viu envoltada de llibres i records.
+                        
+                        
+                        «La primera vegada que vaig sentir anomenar Stalin, tenia onze anys. Va ser prop de Tolosa de Llenguadoc, on vivia amb els avis, a pagès. Ja es veia que aquell dia no seria com els altres».</td>
+                </tr>
+                <tr>
+                    <td>Escollida pels déus</td>
+                    <td>Maria Carme Roca</td>
+                    <td>9,95€</td>
+                    <td>Any 305 abans de Crist. Empòrion, una petita polis de l'occident de la Mediterrània, creix pròspera, entre altres coses gràcies a les riques terres de l'interior, les dels ibers indigetes. El naixement d'una nena, fruit d'un amor prohibit, coincidirà amb un període d'hostilitats entre emporitans i indigetes</td>
+                </tr>
+                <tr>
+                    <td>Dins el darrer blau</td>
+                    <td>Carme Riera</td>
+                    <td>20,90€</td>
+                    <td>terrible història dels xuetes que provaven d’escapar de la Inquisició a Mallorca, i també són benvinguts els lectors futurs que, a través d’aquestes pàgines cabdellaran i descabdellaran les esperances, pors, il·lusions i desil·lusions d’uns personatges dels quals se’ns narra amb intriga, amb poesia, la dissort que s’aclaparà damunt d’ells l’any 1688
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jo hauria pogut salvar Lorca</td>
+                    <td>Víctor Amela</td>
+                    <td>9,95€</td>
+                    <td>La novel·la reconstrueix la vida de Manuel Bonilla, l'avi de Víctor Amela, llaurador i pastor de l'Alpujarra convertit en passador clandestí de persones d'un costat a l'altre del front de guerra de Granada. La revolta militar el va arrossegar al fons d'un dels successos més tràgics i universals de la guerra del nostre país: l'assassinat del poeta Federico García Lorca. Un horror que li pesarà per sempre en una vida que s'empelta amb la d'altres personatges, cèlebres alguns -Luis Rosales, Ramón Ruiz Alonso, Gerald Brenan, Agustín Penón, Emilia Llanos- i anònims d'altres, com Josep Amela, soldat republicà català que serà presoner seu: el temps i l'atzar els convertiran en membres d'una mateixa família.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id="lart">Llibres d'art</h2>
+        <table class="llibart">
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td>La noia amb la Leica</td>
+                    <td>Helena Janeczek</td>
+                    <td>19€</td>
+                    <td>L’1 d’agost de 1937 una desfilada de banderes roges travessa París. És la comitiva fúnebre per
+                        Gerda Taro (Stuttgart, 1910-El Escorial, 1937), la primera fotògrafa caiguda en un camp de
+                        batalla. Justament aquell dia hauria fet 27 anys. Robert Capa, a primera fila, està desfet: junts,
+                        havien estat feliços, ell li havia ensenyat a fer servir la Leica i després tots dos se n’havien anat
+                        a la guerra d’Espanya. Entre els assistents s’hi troben altres amics que coneixien Gerda des de
+                        molt abans i que va deixar en ells una forta petjada. Ella els va decebre i ferir, però la seva joia
+                        de viure, la seva set de llibertat són espurnes capaces de tornar-se a encendre. N’hi ha prou
+                        amb una trucada per desencadenar els records.
+                        Així comença aquesta novel·la, rigorosament documentada, sobre una dona en la qual en una
+                        època especialment convulsa cristal·litzen la joventut, l’alegria de viure, el talent i el compromís
+                        en un temps de crisi econòmica, d’ascens del nazisme, de persecució i de guerra.</td>
+                </tr>
+                <tr>
+                    <td>Laberint de l'ànima</td>
+                    <td>Anna Llenas</td>
+                    <td>19,95€</td>
+                    <td>Un deliciós recorregut per les emocions de l'ésser humà, una obra descriptiva i poètica al mateix temps, que ens ajuda a reflexionar, identificar i fins i tot gestionar el nostre món interior, el nostre laberint.
+                        Un camí tan complex com apassionant. Díficil de preveure, però on l'aventura, l'emoció i la imaginació estan del tot assegurades.</td>
+                </tr>
+                <tr>
+                    <td>No era pecat</td>
+                    <td>Leopoldo Pomés</td>
+                    <td>21€</td>
+                    <td>Al llarg de la seva esplendorosa carrera professional i artística, el fotògraf Leopoldo Pomés,
+                        flamant Premi Nacional de Fotografia, ha conegut desenes de personatges de tot el món i ha
+                        viscut amb ells anècdotes substancioses que ara explica amb bona memòria i molta gràcia. En
+                        aquestes pàgines viscudes, Pomés desvela amb rialla sorneguera els capricis d’una actriu, i amb
+                        sinceritat i desimboltura recorda els àpats i converses amb arquitectes, empresaris, intel·lectuals
+                        i artistes de la Barcelona dels anys 60 fins als 90.
+                        Més enllà d’aquest reguitzell anecdòtic, Pomés s’endinsa en les vivències més transcendents
+                        de la seva infantesa i adolescència. Descriu amb una lluminositat sorprenent la descoberta del
+                        sexe i amb una transparència inhabitual parla de gairebé totes les dones de la seva vida.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gaudí i el trencadís modernista</td>
+                    <td>Aa.Vv.</td>
+                    <td>26,60€</td>
+                    <td>El trencadís ceràmic és la icona més representativa del Modernisme i de l'arquitectura d'Antoni Gaudí. Sense la seva aplicació no podríem reconéixer el banc del Park Güell o la façana de la Casa Batlló, per exemple. En aquest llibre es fa un recorregut, pas a pas, obra a obra, per l'ús que Gaudí va fer de la técnica del trencadís, sense oblidar el context históric i cultural de l'arquitecte; les diferents técniques del germà gran del trencadís: el mosaic clàssic i del món àrab; i els diferents materials amb qué Gaudí realitzà el trencadís així com la seva funcionalitat.</td>
+                </tr>
+                <tr>
+                    <td>We instagram</td>
+                    <td>Marta Alonso Reig</td>
+                    <td>15,95€</td>
+                    <td>A l'any 2010 va néixer una aplicació per a mòbil predestinada a revolucionar per sempre la vida de milions de persones. Avui, Instagram ha canviat  la manera d'observar el món, ha democratitzat la fotografia i ha permès que un torrent de talent ocult sortís a la superfície inspirant milions de joves de tot el món. Aquest llibre és un aparador que mostra la creativitat que omple la xarxa social, una radiografia de les diferents tendències que triomfen a Instagram i que la converteixen en el punt de trobada dels nous referents que marcan el futur de la cultura creativa que és a tocar.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id="lfil">Llibres de filosofia</h2>
+        <table class="llibfil">
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td>De l'inconvenient d'haver nascut</td>
+                    <td>Emil Cioran</td>
+                    <td>18€</td>
+                    <td>De l’inconvenient d’haver nascut (1973), on, amb aforismes provocadors i lúcids, tracta l’absurd
+                        de la condició humana. Un vidriol literari on s’ajunten lògica i contrasentit, humor i lucidesa, però
+                        que no té un propòsit descoratjador, sinó vivificant. Aquest autor de culte, molt valorat com a escriptor
+                        a més de filòsof, amb els seus aforismes connecta amb literats de l’actualitat.</td>
+                </tr>
+                <tr>
+                    <td>Filosofia per sortir de casa</td>
+                    <td>Norbert Bilbeny</td>
+                    <td>15,90€</td>
+                    <td>Aquest text vol ser una reivindicació de la filosofia com una activitat que exigeix sortir de casa
+                        i acostumar-se a observar el món des d’una certa itinerància i una dosi d’inquietud, aspectes
+                        propis del pensament filosòfic. Tanmateix, no defuig el rigor i la claredat intel·lectuals que són
+                        condicions indispensables de qualsevol pensar que vulgui ser entès. La filosofia, com explica
+                        aquest llibre, és una investigació intel·lectual oberta al món i amb idees originals, però al mateix
+                        temps rigorosa en el pensament i clara en les formes d’expressió i de possible aplicació.</td>
+                </tr>
+                <tr>
+                    <td>La condició humana</td>
+                    <td>Hannah Arendt</td>
+                    <td>12.95 €</td>
+                    <td>Hannah Arendt dissecciona la raça humana i fa un anàlisi profund sobre les coses que els homes i
+                        les dones són capaços de fer. I es refereix tant a les capacitats humanes per atendre les necessitats bàsiques (menjar, beure, vestir-se o dormir...) com a la sublimació d’aquestes en un àmbit més transcendental. Un anàlisi històric amb clara vocació de construcció política d’ampli abast filosòfic.
+                    </td>
+                </tr>
+                <tr>
+                    <td>L'art de la guerra</td>
+                    <td>Sunzi</td>
+                    <td>2,99€</td>
+                    <td>L'Art de la guerra, obra del pensador xinès Sunzi (544 a.C - 496 a.C), és considerat el primer tractat d’estratègia militar conegut (s. V aC). El text es compon de 13 capítols, cadascun dels quals està dedicat a un aspecte de la guerra.Va ser i segueix sent estudiat per tots aquells estrategues militars que han dirigit exèrcits, però els seus ensenyaments són molt més extensos i també poden ser aplicats en moltes altres àrees que van més enllà del conflictes armats. Per això la importància del text creix si en fem una lectura política i econòmica.</td>
+                </tr>
+                <tr>
+                    <td>La veritable història d'una mentida</td>
+                    <td>Ramon Erra</td>
+                    <td>15,67€</td>
+                    <td>«Hi va haver un mort a la devesa, i això no s'oblida, encara que diguin que el cas està arxivat.» La veritable història d'una mentida es mou en el llindar sempre ambigu entre la realitat i la ficció, entre la veritat i la mentida. El llindar de la possibilitat. En aquest espai fèrtil per a la inventiva es desenvolupa aquesta història, que pren la mort del Crisanto, un jove italià, com a excusa fabuladora de tots els implicats en la novel·la. Fabulen els pastors, companys del Pasqual, i fabula la Magalí, la seva neboda, mentre recorre la ruta literària de Balzac, a París. Qui no fabula, o no del tot, és el Pasqual, que conta la veritat del que va passar fa uns anys a la devesa.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id="linf">Llibres de informàtica</h2>
+        <table class="llibinf">
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td>Estadistica per a enginyers informatics</td>
+                    <td>Jose A. Gonzalez</td>
+                    <td>26,70€</td>
+                    <td>En enginyeria informàtica, hi ha molts fenòmens que no són deterministes, és a dir, que estan subjectes a error aleatori, com ara el temps de resposta d'un ordinador en sistemes complexos. Per poder modelar aquests fenòmens és necessari utilitzar procediments que permetin quantificar i, si és possible, reduir el terme d'error. L'objectiu del llibre és presentar al lector la metodologia estadística bàsica que permet deduir -inferir- el comportament de la població que s'està estudiant, partint d'un nivell elemental de coneixements de probabilitat. Els autors fan ús extensiu d'exemples extrets del camp informàtic, anotacions i comentaris per refermar els continguts i facilitar-ne la lectura i la comprensió dels conceptes teòrics. Completen l'obra molts treballs i exercicis, la majoria amb la solució corresponent i amb discussions útils. Després d'un primer capítol dedicat a introduir el concepte d'inferència estadística, al capítol 2 se n'exposen els principis fonamentals, la mostra i l'estimador. A continuació es presenten les tècniques de l'interval de confiança (capítol 3) i la prova de significació i de contrast d'hipòtesis (capítol 4). El capítol 5 es dedica a explicar la comparació de dues poblacions, i el capítol 6 desenvolupa les relacions entre variables des de l'òptica del model lineal. El capítol 7 presenta els aspectes relatius a la validació i la previsió i, finalment, al capítol 8 s'introdueixen les proves de Pearson per a l'anàlisi de variables categòriques.</td>
+                </tr>
+                <tr>
+                    <td>Codi Rebel: la història de linux i de la revolució del programari lliure</td>
+                    <td>Glyn Moody</td>
+                    <td>20€</td>
+                    <td>Una història apassionant que ens explica com un grup d'inconformistes desafià les grans empreses i va produir una revolució inesperada en el món dels ordinadors. El 1991 un jove estudiant, Linus Torvalds, va comprar un ordinador personal i es va plantejar l'elaboració d'un nou programari. Tot va començar gairebé com un joc, com un hobby, però en pocs anys, i amb l'ajuda d'un grup d'amics i col·laboradors connectats a través de la xarxa, Torvalds va desenvolupar un sistema operatiu que es va convertir en un veritable repte per a Microsoft. El programari GNU / Linux és utilitzat avui per milions de persones. I la qüestió que més desassossec provoca entre els grans gegants de la informàtica és que el seu ús és lliure, no costa diners. En aquest relat ple d'anècdotes i d'històries reveladores, Glyn Moody exposa de manera clara i accessible com es va desenvolupar aquesta lluita entre David i Goliat protagonitzada per Linux, tot i situant-la en el context més ampli de la història de el moviment en favor del programari lliure. A el mateix temps mostra tot el que es pot aconseguir quan la creativitat i la cooperació intel·lectual es posen per sobre de l'simple benefici econòmic. Glyn Moody s'ha ocupat de Linux gairebé des del moment la seva elaboració. És col·laborador regular de Computer Weekly, on escriu una columna setmanal sobre Internet i el món dels negocis. També ha escrit per a The Guardian, The Economist, Daily Telegraph, New Scientist i Financial Times.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id="nter">Novel·la de terror</h2>
+        <table class="novter">
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td>Frankenstein</td>
+                    <td>Mary Shelley</td>
+                    <td>9,95€</td>
+                    <td>Un doctor, impulsat per la passió científi ca, dóna vida a un ésser deforme. El monstre és, en principi, una criatura tendra i generosa, però el rebuig el transforma i comença a omplir de desgràcies la vida del seu creador. Frankenstein és una història plena d’horror i de misteri, de generositat i de tendresa, a cavall de la novel·la gòtica i el relat filosòfic.</td>
+                </tr>
+                <tr>
+                    <td> El rei de groc</td>
+                    <td>Robert W. Chambers</td>
+                    <td>12,35€</td>
+                    <td>«Tenia El Rei de Groc als peus, obert a la segona part. Vaig mirar la Tessie i vaig adonar-me que era massa tard. Havia llegit El Rei de Groc. La vaig agafar de la mà i la vaig conduir fins a l’estudi. Semblava estordida, i quan li vaig dir que es tombés al sofà va obeir-me sense dir res.» Aquest és un dels efectes que produeix la lectura d'un llibre maleït, al voltant del qual giren les històries de Robert W. Chambers, que també porten per títol El Rei de Groc, el llibre dins del llibre. Chambers, la baula que connecta Poe amb Lovecraft, va esdevenir instantàniament un autor de culte per als seguidors de la literatura fantàstica i ha inspirat amb els seus contes dominats pel mal, l’horror i l’element sobrenatural tots els escriptors posteriors, des del mateix Lovecraft (que va inspirar-s'hi per crear els mites de Cthulhu) fins a Raymond Chandler, Stephen King o, més recentment, Nic Pizzolato i la meravellosa True Detective.</td>
+                </tr>
+                <tr>
+                    <td>Visions del purgatori</td>
+                    <td>Varies autors</td>
+                    <td>16€</td>
+                    <td>Segons la tradició catòlica, el Purgatori és el lloc on van les ànimes que han pecat però que encara poden ser salvades, una avantsala de l'infern que, sovint, s'assembla molt a la nostra terra. En aquest volum, deu escriptors ens ofereixen les seves particulars i originals visions del Purgatori, que van des de la versió en videojoc a la conspiració reptiliana per destruir el món; des de la perpètua repetició d'un malson a la supervivència en un món postapocalíptic poblat per zombis, passant pels vampirs i la seva vida eterna entesa com a condemna, o per la insatisfacció delirant que es respira en llocs tan reals com una clínica de cirurgia estètica.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Torn de nit</td>
+                    <td>Stephen King</td>
+                    <td>24,70€</td>
+                    <td>Aquest llibre recull l’essència dels millors anys de Stephen King com a escriptor. Són vint contes escrits entre 1968 i 1977, on descobrim com es va forjar l’univers d’aquest narrador excepcional. Sense palla, sense capítols sobrers, aquests relats conformen una prova irrefutable del talent literari del que anys més tard es convertiria en un dels autors més venuts de tots els temps. Torn de nit aplega algunes de les millors narracions més Stephen King, com «Els nens de les panotxes», «Jerusalem’s Lot», «A vegades tornen» o «L’últim graó de l’escala», en què demostra el seu talent quasi sobrenatural per a explicar històries captivadores. I serem nosaltres, els lectors, els que sentirem una empatia infinita pels seus personatges, fins al punt de compartir-ne els temors.</td>
+                </tr>
+                <tr>
+                    <td>La química</td>
+                    <td>Stephenie Meyer</td>
+                    <td>9,95€</td>
+                    <td>En esta trepidante y adictiva novela, una exagente que huye de su antigua organización deberá aceptar un último caso para limpiar su nombre y salvar su vida.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id="clit">Clàssics de la literatura</h2>
+        <table class="clit">
+            <tbody>
+                <tr>
+                    <th>Nom</th>
+                    <th>Autor</th>
+                    <th>Preu</th>
+                    <th>Breu descripció</th>
+                </tr>
+                <tr>
+                    <td>Els viatges</td>
+                    <td>Ibn Battuta</td>
+                    <td>9,95€</td>
+                    <td>Lescriptor àrab Ibn Battuta ha estat qualificat per molts com el més gran viatger de tots els temps». Nascut a Tànger lany 703 de lHègira (1304), Ibn Battuta va iniciar els seus viatges lany 1325 a ledat de vint-i-un anys, i voltà pel món durant més de trenta anys des del seu Marroc natal fins als extrems de la Xina i fins als límits coneguts a lèpoca de lÀfrica negra. Limpressionant periple que ens descriu en la seva extensa crònica (Els Viatges dIbn Battuta), lha convertit en el prototipus de rodamón (jawwala) i en un dels mestres del relat de viatges (rihla), i també que shagi guanyat els apel·latius de viatger dels àrabs» (mussàfir al-arab) i de viatger del temps» (rahhal al-asr). Els investigadors occidentals que han estudiat i traduït la seva obra a partir del segle XIX lhan anomenat també el viatger de lislam» i -per inevitable comparança amb un altre gran viatger medieval- el Marco Polo àrab», per bé que el nostre tangerí -seixanta anys després del venecià- fes molt més quilòmetres, arribés molt més lluny i descrivís els seus itineraris amb molta més profusió de detalls, anècdotes i comentaris.</td>
+                </tr>
+                <tr>
+                    <td>La claror del juliol</td>
+                    <td>Vicenç Villatoro</td>
+                    <td>19€</td>
+                    <td>Durant deu anys de la seva joventut, tres personatges —dos nois i una noia— s’entusiasmen,
+                        dubten, s’estimen i s’enlluernen amb intensitat. Al seu darrere, dos paisatges dels anys trenta:
+                        un de tràgic —el temps de les grans ideologies, de la guerra, de la mort— i un de plàcid
+                        —els estius a Favinyana, la claror del juliol en una illa mediterrània i amable. Anys després, un
+                        d’aquells tres amics explica el record que té del món d’aleshores.</td>
+                </tr>
+                <tr>
+                    <td>Boomerang viatge al cor d'Australia</td>
+                    <td>Xavier moret</td>
+                    <td>9,95 €</td>
+                    <td>Benvinguts a Austràlia, una illa-continent enorme, més gran que Europa i habitada per tan sols dinou milions de persones, on les carreteres tenen rectes de més de quatre-cents quilòmetres i el tren tarda més de tres dies a recórrer de punta a punta la distància que separa Perth i Sydney, i on conviuen els contrastos més radicals que es puguin arribar a imaginar. Tot això, i més, ens explica aquest nou llibre de Xavier Moret, una aventura plena de curiositats, perills i velles històries que ens retorna, com un bumerang, a aquesta gran illa, pràcticament oblidada durant dècades i avui, gràcies als jocs olímpics de Sydney 2000, de més actualitat que mai.
+                    </td>
+                </tr>
+                <tr>
+                    <td>El costat de Guermantes</td>
+                    <td>Marcel Proust</td>
+                    <td>25€</td>
+                    <td>Hi ha poques experiències tant reveladores, tan trasbalsadores, com la lectura del gran cicle proustià A la recerca del temps perdut. Aquesta nova traducció catalana del clàssic per excel·lència de la novel·la francesa del segle XX és una invitació a no deixar-se perdre l'immens plaer de seguir, agafat a la mà de Proust, la bellíssima evocació i la reconstrucció tenaç de la seva adolescència. </td>
+                </tr>
+                <tr>
+                    <td>La Celestina</td>
+                    <td>Fernando de Rojas</td>
+                    <td>10,64€</td>
+                    <td>EAdaptació de la «Tragicomèdia de Calisto i Melibea», narra els amors d'aquests dos joves que, ajudats per la vella alcavota Celestina, acabaran en un tràgic final. Obra que culmina la literatura medieval espanyola i preludia el Renaixement.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <div class="social">
+        <a href="https://es-es.facebook.com/" class="social_icon"><img src="img/facebook.png" width="150" class="icono"></a>
+        <a href="https://twitter.com/" class="social_icon"><img src="img/Twiter.png" width="150" class="icono"></a>
+        <a href="https://wapps.cat/" class="social_icon"><img src="img/websalpunt.png" width="150"  class="icono"></a>
+        <a href="https://www.instagram.com/" class="social_icon"><img src="img/Instagram.jpg" width="150"  class="icono"></a>
+        <a href="https://www.snapchat.com/l/es/" class="social_icon"><img src="img/snapchat.jpg" width="150" class="icono"></a>
+      </div>
+</body>
+    <footer class="secondary_header·footer">
+      <div class="copyright">&copy;2020 - <strong>JAJE LLIBRES</strong>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional</a>.
+      </div>
+</html>
